@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Team - Orion</title>
+    <link rel="icon" href="android-chrome-512x512.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            color: #282c34;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .team-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 280px;
+            transition: transform 0.2s;
+        }
+        .team-card:hover {
+            transform: translateY(-5px);
+        }
+        .team-card img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .team-card h3 {
+            margin: 10px 0 5px;
+            color: #282c34;
+        }
+        .team-card p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet the Team</h1>
+        <p>The Minds Behind Orion</p>
+    </header>
+    <main>
+        <h2>Our Team Members</h2>
+        <div class="team-container">
+            <!-- Team Member 1 -->
+            <div class="team-card">
+                <img src="justice.jpg" alt="Justice Darko">
+                <h3>Justice Darko</h3>
+                <p>AI Researcher & Co-Creator</p>
+                <p>Leading AI innovation and driving technical excellence.</p>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="team-card">
+                <img src="doreen.jpg" alt="Doreen Darko">
+                <h3>Doreen Nolda Jehu-Appiah</h3>
+                <p>AI Developer & Co-Creator</p>
+                <p>Designing machine learning frameworks and tools.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Orion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
